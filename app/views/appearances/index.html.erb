@@ -1,0 +1,7 @@
+<h1>All Appearances</h1>
+
+<% @appearances.each do |appearance| %>
+  <%= appearance.guest_id %><br>
+  <%= appearance.episode_id %><br>
+  <%= appearance.rating %>
+<% end %>
